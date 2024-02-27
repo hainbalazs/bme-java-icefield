@@ -1,0 +1,47 @@
+create_game -blizzard=30 -rand=0
+create_field -id=0 -capacity=2 -snow=0 -explored=0 -building=null -tool_category=k -tool_type=3 -durability=0
+create_field -id=1 -capacity=-1 -snow=0 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_field -id=2 -capacity=0 -snow=0 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_field -id=3 -capacity=-1 -snow=0 -explored=0 -building=null -tool_category=k -tool_type=1 -durability=0
+create_field -id=4 -capacity=0 -snow=0 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_field -id=5 -capacity=-1 -snow=0 -explored=0 -building=null -tool_category=k -tool_type=2 -durability=0
+create_field -id=6 -capacity=-1 -snow=0 -explored=0 -building=null -tool_category=s -tool_type=shovel -durability=0
+create_field -id=7 -capacity=0 -snow=0 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_field -id=8 -capacity=1 -snow=1 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_field -id=9 -capacity=0 -snow=0 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_field -id=10 -capacity=2 -snow=0 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_field -id=11 -capacity=0 -snow=0 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_field -id=12 -capacity=-1 -snow=0 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+add_neighbour -id1=0 -id2=1
+add_neighbour -id1=0 -id2=2
+add_neighbour -id1=0 -id2=3
+add_neighbour -id1=1 -id2=2
+add_neighbour -id1=1 -id2=4
+add_neighbour -id1=1 -id2=5
+add_neighbour -id1=2 -id2=3
+add_neighbour -id1=2 -id2=5
+add_neighbour -id1=2 -id2=6
+add_neighbour -id1=3 -id2=6
+add_neighbour -id1=3 -id2=7
+add_neighbour -id1=4 -id2=5
+add_neighbour -id1=4 -id2=8
+add_neighbour -id1=5 -id2=6
+add_neighbour -id1=5 -id2=8
+add_neighbour -id1=5 -id2=9
+add_neighbour -id1=6 -id2=7
+add_neighbour -id1=6 -id2=9
+add_neighbour -id1=6 -id2=10
+add_neighbour -id1=7 -id2=10
+add_neighbour -id1=8 -id2=9
+add_neighbour -id1=8 -id2=11
+add_neighbour -id1=8 -id2=12
+add_neighbour -id1=9 -id2=10
+add_neighbour -id1=9 -id2=12
+add_neighbour -id1=10 -id2=12
+add_neighbour -id1=11 -id2=12
+create_char -id=11 -type=bear -health=4 -field=1
+create_char -id=81 -type=eskimo -health=4 -field=8
+create_char -id=101 -type=explorer -health=4 -field=10
+create_char -id=121 -type=explorer -health=4 -field=12
+ability -field=8
+dump_all

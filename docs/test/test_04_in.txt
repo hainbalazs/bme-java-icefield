@@ -1,0 +1,6 @@
+create_game -blizzard=5 -rand=0
+create_field -id=0 -capacity=1 -snow=1 -explored=0 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_char -id=0 -type=eskimo -health=5 -field=0
+char_info -id=0
+skip
+dump_all

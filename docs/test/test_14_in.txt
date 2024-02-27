@@ -1,0 +1,5 @@
+create_game -blizzard=1 -rand=0
+create_field -id=0 -capacity=-1 -snow=0 -explored=1 -building=false -tool_category=s -tool_type=food -durability=-1
+create_char -id=0 -type=eskimo -health=1 -field=0
+obtain
+dump_all

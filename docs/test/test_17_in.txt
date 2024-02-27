@@ -1,0 +1,8 @@
+create_game -blizzard=8 -rand=0
+create_field -id=0 -capacity=-1 -snow=2 -explored=1 -building=null -tool_category=null -tool_type=null -durability=0
+create_char -id=0 -type=eskimo -health=4 -field=0
+active_char -id=0
+field_info -id=0
+ability -field=0
+dump_all
+

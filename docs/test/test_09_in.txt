@@ -1,0 +1,12 @@
+create_game -blizzard=5 -rand=0
+create_field -id=0 -capacity=-1 -snow=3 -explored=1 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_field -id=1 -capacity=2 -snow=3 -explored=1 -building=null -tool_category=null -tool_type=shovel -durability=0
+add_neighbour -id1=0 -id2=1
+create_char -id=0 -type=eskimo -health=3 -field=0
+char_info -id=0
+field_info -id=0
+field_info -id=1
+move -to=1
+char_info -id=0
+field_info -id=0
+field_info -id=1

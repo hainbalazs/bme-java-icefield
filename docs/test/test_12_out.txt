@@ -1,0 +1,12 @@
+A karakter nem tudta összeállítani a rakétát, nincs meg minden elem!
+2
+3
+0
+1
+c
+<>
+<0><0><1><3><{0,1,ktool}><eskimo>
+<1><0><1><4><{0,2,ktool}><eskimo>
+<2><0><1><4><><eskimo>
+<0><true><-1><0,1,2><><null><null><0>
+<1><true><-1><><><3,ktool><null><0>

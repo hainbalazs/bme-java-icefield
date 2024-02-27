@@ -1,0 +1,22 @@
+2
+2
+0
+8
+c
+<1>
+<0><0><4><4><{4,rope}><eskimo>
+<1><1><4><4><><explorer>
+<0><true><-1><0><1><null><null><0>
+<1><true><0><1><0><null><null><0>
+Melyik id-val rendelkező karaktert mented ki?
+1
+2
+2
+0
+8
+c
+<1>
+<0><0><4><3><{4,rope}><eskimo>
+<1><0><4><3><><explorer>
+<0><true><-1><0,1><1><null><null><0>
+<1><true><0><><0><null><null><0>

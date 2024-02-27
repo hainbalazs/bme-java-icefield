@@ -1,0 +1,20 @@
+Exit
+Eskimo on a Stable Field, without an Igloo dies due to Blizzard 
+Explorer - who’s already in water - drowns 
+Eskimo runs out of Action Points, therefore ends its turn 
+Player skips his turn 
+Digging without shovel 
+Digging with shovel 
+Character eats food 
+Moving to full dangerous field 
+Moving to not full dangerous field
+Moving to stable field
+Using key tool in adequate circumstances 
+Using key tool in inadequate circumstances 
+Eskimo obtains Shovel 
+Eskimo obtains Food 
+Eskimo obtains DivingGear 
+Eskimo obtains Rope 
+Eskimo interacts with Igloo 
+Explorer uses alility 
+Eskimo uses rope

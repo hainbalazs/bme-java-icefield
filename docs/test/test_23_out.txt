@@ -1,0 +1,6 @@
+<0><true><-1><0><><null><null><4>
+<0><0><4><4><{4,fshovel,1}><eskimo>
+<0><true><-1><0><><null><null><2>
+<0><0><4><3><{4,fshovel,0}><eskimo>
+<0><true><-1><0><><null><null><1>
+<0><0><4><2><{4,fshovel,0}><eskimo>

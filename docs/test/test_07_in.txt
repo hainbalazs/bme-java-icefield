@@ -1,0 +1,10 @@
+create_game -blizzard=5 -rand=0
+create_field -id=0 -capacity=-1 -snow=0 -explored=1 -building=null -tool_category=null -tool_type=shovel -durability=0
+create_char -id=0 -type=eskimo -health=4 -field=0
+addstdtool -location_id=0 -durability=0 -type=food
+char_info -id=0
+tool -id=4
+char_info -id=0
+addstdtool -location_id=0 -durability=0 -type=food
+tool -id=4
+char_info -id=0

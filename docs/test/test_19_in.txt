@@ -1,0 +1,15 @@
+create_game -blizzard=8 -rand=0
+create_field -id=0 -capacity=-1 -snow=0 -explored=1 -building=null -tool_category=null -tool_type=null -durability=0
+create_field -id=1 -capacity=0 -snow=0 -explored=1 -building=null -tool_category=null -tool_type=null -durability=0
+add_neighbour -id1=0 -id2=1
+create_char -id=0 -type=eskimo -health=4 -field=0
+create_char -id=1 -type=explorer -health=4 -field=1
+drowning -id=1 -timeleft=2
+addstdtool -location_id=0 -durability=10 -type=rope
+dump_all
+tool -id=4
+1
+dump_all
+
+
+

@@ -1,0 +1,10 @@
+create_game -blizzard=1 -rand=0
+create_field -id=0 -capacity=-1 -snow=0 -explored=1 -building=false -tool_category=null -tool_type=0 -durability=0
+create_field -id=1 -capacity=-1 -snow=0 -explored=1 -building=false -tool_category=k -tool_type=3 -durability=-1
+create_char -id=0 -type=eskimo -health=1 -field=0
+addktool -location_id=0 -type=1
+create_char -id=1 -type=eskimo -health=1 -field=0
+addktool -location_id=1 -type=2
+create_char -id=2 -type=eskimo -health=1 -field=0
+tool -id=0
+dump_all
